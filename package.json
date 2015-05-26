@@ -1,0 +1,30 @@
+{
+  "author": "Alexey Gurianov <alexey@gurianov.com>",
+  "description": "Useful ENB technologies to build angular projects",
+  "name": "enb-ng-techs",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bem-incubator/enb-ng-techs.git"
+  },
+  "homepage": "https://github.com/bem-incubator/enb-ng-techs",
+  "bugs": {
+    "url": "https://github.com/bem-incubator/enb-ng-techs/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "enb",
+    "enb-make",
+    "angular",
+    "ng",
+    "ng-bem",
+    "bem"
+  ],
+  "peerDependencies": {
+    "enb": "^0.15.0"
+  },
+  "devDependencies": {
+    "enb": "^0.15.0",
+    "ng-annotate": "^0.15.4"
+  }
+}
