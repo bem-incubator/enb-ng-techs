@@ -2,7 +2,7 @@
   "author": "Alexey Gurianov <alexey@gurianov.com>",
   "description": "Useful ENB technologies to build angular projects",
   "name": "enb-ng-techs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/bem-incubator/enb-ng-techs.git"
@@ -20,11 +20,10 @@
     "ng-bem",
     "bem"
   ],
-  "peerDependencies": {
+  "devDependencies": {
     "enb": "^0.15.0"
   },
-  "devDependencies": {
-    "enb": "^0.15.0",
+  "dependencies": {
     "ng-annotate": "^1.0.0"
   }
 }
