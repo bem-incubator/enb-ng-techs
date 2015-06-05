@@ -40,7 +40,7 @@ nodeConfig.addTech(require('enb-ng-techs/techs/ng-annotate'), {
 ng-templates
 ==========
 
-Combines `*.tmpl.html` files by deps wrapping them out with `<script type="text/ng-template">` tag and filename as `id`.
+Combines `*.tmpl.html` files wrapping them out with `<script type="text/ng-template">` tag and filename as `id`.
 You should fetch this file and compile it in your app using $compile service before any call to templates occurred.
 
 **Опции**

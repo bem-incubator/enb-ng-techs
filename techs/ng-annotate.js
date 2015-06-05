@@ -19,14 +19,14 @@
  * ```
  */
 
-var ngAnnotate = require("ng-annotate");
+var ngAnnotate = require('ng-annotate');
 module.exports = require('enb/lib/build-flow').create()
     .name('ng-annotate')
     .defineOption('target')
     .target('target', '?.js')
     .defineRequiredOption('source')
     .useSourceText('source')
-    .builder(function(source){
-        return ngAnnotate(source, { add : true }).src;
+    .builder(function (source) {
+        return ngAnnotate(source, { add: true }).src;
     })
     .createTech();
