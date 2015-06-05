@@ -37,7 +37,8 @@
  *     });
  * ```
  */
-var path = require('path');
+var path = require('path'),
+    EOL = require('os').EOL;
 
 module.exports = require('enb/lib/build-flow').create()
     .name('ng-templates')
@@ -45,6 +46,10 @@ module.exports = require('enb/lib/build-flow').create()
     .target('target', '?.tmpl.html')
     .useFileList(['tmpl.html'])
     .justJoinFiles(function (filename, data) {
-        return '<script type="text/ng-template" id="' + filename.split(path.sep).pop() + '">\n' + data + '\n</script>';
+        return [
+            '<script type="text/ng-template" id="' + filename.split(path.sep).pop() + '">',
+            data,
+            '</script>'
+        ].join(EOL);
     })
     .createTech();
