@@ -21,11 +21,11 @@
     "bem"
   ],
   "devDependencies": {
-    "enb": "0.15.0",
+    "enb": "0.16.0",
     "jscs": "1.13.1",
     "jshint": "2.8.0",
     "mocha": "2.2.5",
-    "mock-enb": "0.0.1",
+    "mock-enb": "0.1.0",
     "mock-fs": "2.7.1",
     "must": "0.12.0"
   },
