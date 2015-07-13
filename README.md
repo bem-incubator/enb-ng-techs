@@ -3,7 +3,7 @@ enb-ng-techs
 
 [![NPM version](https://img.shields.io/npm/v/enb-ng-techs.svg?style=flat)](https://www.npmjs.org/package/enb-ng-techs)
 [![Travis](https://img.shields.io/travis/bem-incubator/enb-ng-techs.svg)](https://travis-ci.org/bem-incubator/enb-ng-techs)
-[![AppVeyor](https://img.shields.io/appveyor/ci/bem-incubator/enb-ng-techs.svg)](https://ci.appveyor.com/project/Guria/enb-ng-techs)
+[![AppVeyor](https://img.shields.io/appveyor/ci/Guria/enb-ng-techs.svg)](https://ci.appveyor.com/project/Guria/enb-ng-techs)
 
 
 Useful ENB technologies to build angular projects.
