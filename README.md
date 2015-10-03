@@ -1,6 +1,8 @@
 enb-ng-techs
 ==============
 
+[![Join the chat at https://gitter.im/bem-incubator/enb-ng-techs](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/bem-incubator/enb-ng-techs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![NPM version](https://img.shields.io/npm/v/enb-ng-techs.svg?style=flat)](https://www.npmjs.org/package/enb-ng-techs)
 [![Travis](https://img.shields.io/travis/bem-incubator/enb-ng-techs.svg)](https://travis-ci.org/bem-incubator/enb-ng-techs)
 [![AppVeyor](https://img.shields.io/appveyor/ci/Guria/enb-ng-techs.svg)](https://ci.appveyor.com/project/Guria/enb-ng-techs)
